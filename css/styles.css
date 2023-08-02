@@ -1,0 +1,145 @@
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url("https://i0.wp.com/academiamag.com/wp-content/uploads/2018/04/ieee-continuing-education-courses-600-400.jpg?fit=600%2C400&ssl=1");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  h3{
+    font-family: 'REM';
+  }
+  h2{
+    font-family: 'REM';
+  }
+  .text-box {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 90%;
+  }
+  .text-box h1 {
+    font-size: 48px;
+    font-family: "REM";
+  }
+  .text-box p {
+    margin: 10px 0 40px;
+    font-size: 25px;
+    font-family: Montserrat;
+  }
+  .container-fluid{
+    padding: 1% 30% 7%;
+  }
+  .fa-solid{
+    color: #fff;
+  }
+  #course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'REM';
+  }
+  p {
+    color: #777;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  }
+  .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .course-col {
+    line-height: 1.5;
+    flex-basis: 31%;
+    background-color: #FFFBEB;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  .course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  }
+  @media (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+.icon{
+  color: #23689B;
+  margin: 1rem;
+  font-size: 60px;
+  text-align: center;
+}
+#facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.facilities-col {
+  background-color: #fff3f3;
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 7%;
+  text-align: left;
+}
+.facilities-col p {
+  padding: 0;
+}
+.facilities-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.pa{
+  text-align: center;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+#footer{
+  background-color: black;
+  text-align: center;
+  padding: 2% 15%;
+  line-height: 1;
+}
+.social-icon{
+  color: #23689B;
+  margin: 20px 10px;
+}
+.social-icon:hover{
+  color: #FCF8E8;
+}
+.navbar-brand{
+  font-family: "Ubuntu";;
+}
+.nav-link{
+  font-weight: 1rem;
+  font-family: Montserrat;
+}
+
+
+
+
+ 
